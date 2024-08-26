@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-tests_wduTest" class="navigator-link">
+              <span class="suite-name border-passed">tests.wduTest</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-tests_wduTest" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-tests_wduTest" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-tests_wduTest" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-tests_wduTest" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-tests_wduTest" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-tests_wduTest" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-tests_wduTest" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-tests_wduTest" class="hide-methods passed suite-tests_wduTest"> (hide)</a> <!-- hide-methods passed suite-tests_wduTest -->
+                      <a href="#" panel-name="suite-tests_wduTest" class="show-methods passed suite-tests_wduTest"> (show)</a> <!-- show-methods passed suite-tests_wduTest -->
+                    </span>
+                    <div class="method-list-content passed suite-tests_wduTest">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-tests_wduTest" title="tests.wduTest" class="method navigator-link" hash-for-method="verifyAjaxLoaderPopUpTest">verifyAjaxLoaderPopUpTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-tests_wduTest" title="tests.wduTest" class="method navigator-link" hash-for-method="verifyAjaxLoaderPopUpTest">verifyAjaxLoaderPopUpTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-tests_wduTest" title="tests.wduTest" class="method navigator-link" hash-for-method="verifyAjaxLoaderPopUpTest">verifyAjaxLoaderPopUpTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-tests_wduTest" title="tests.wduTest" class="method navigator-link" hash-for-method="verifyAjaxLoaderPopUpTest">verifyAjaxLoaderPopUpTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-tests_wduTest" title="tests.wduTest" class="method navigator-link" hash-for-method="verifyAjaxLoaderPopUpTest">verifyAjaxLoaderPopUpTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-tests_wduTest" title="tests.wduTest" class="method navigator-link" hash-for-method="verifyAjaxLoaderPopUpTest">verifyAjaxLoaderPopUpTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-tests_wduTest" title="tests.wduTest" class="method navigator-link" hash-for-method="verifyAjaxLoaderPopUpTest">verifyAjaxLoaderPopUpTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-tests_wduTest" title="tests.wduTest" class="method navigator-link" hash-for-method="verifyAjaxLoaderPopUpTest">verifyAjaxLoaderPopUpTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-tests_wduTest" title="tests.wduTest" class="method navigator-link" hash-for-method="verifyAjaxLoaderPopUpTest">verifyAjaxLoaderPopUpTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-tests_wduTest" title="tests.wduTest" class="method navigator-link" hash-for-method="verifyAjaxLoaderPopUpTest">verifyAjaxLoaderPopUpTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-tests_wduTest -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-tests_wduTest" class="panel tests_wduTest">
+          <div class="suite-tests_wduTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.wduTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAjaxLoaderPopUpTest">
+                  </a> <!-- verifyAjaxLoaderPopUpTest -->
+                  <span class="method-name">verifyAjaxLoaderPopUpTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAjaxLoaderPopUpTest">
+                  </a> <!-- verifyAjaxLoaderPopUpTest -->
+                  <span class="method-name">verifyAjaxLoaderPopUpTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAjaxLoaderPopUpTest">
+                  </a> <!-- verifyAjaxLoaderPopUpTest -->
+                  <span class="method-name">verifyAjaxLoaderPopUpTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAjaxLoaderPopUpTest">
+                  </a> <!-- verifyAjaxLoaderPopUpTest -->
+                  <span class="method-name">verifyAjaxLoaderPopUpTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAjaxLoaderPopUpTest">
+                  </a> <!-- verifyAjaxLoaderPopUpTest -->
+                  <span class="method-name">verifyAjaxLoaderPopUpTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAjaxLoaderPopUpTest">
+                  </a> <!-- verifyAjaxLoaderPopUpTest -->
+                  <span class="method-name">verifyAjaxLoaderPopUpTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAjaxLoaderPopUpTest">
+                  </a> <!-- verifyAjaxLoaderPopUpTest -->
+                  <span class="method-name">verifyAjaxLoaderPopUpTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAjaxLoaderPopUpTest">
+                  </a> <!-- verifyAjaxLoaderPopUpTest -->
+                  <span class="method-name">verifyAjaxLoaderPopUpTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAjaxLoaderPopUpTest">
+                  </a> <!-- verifyAjaxLoaderPopUpTest -->
+                  <span class="method-name">verifyAjaxLoaderPopUpTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAjaxLoaderPopUpTest">
+                  </a> <!-- verifyAjaxLoaderPopUpTest -->
+                  <span class="method-name">verifyAjaxLoaderPopUpTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-tests_wduTest-class-passed -->
+        </div> <!-- panel tests_wduTest -->
+        <div panel-name="test-xml-tests_wduTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;tests.wduTest&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Command line test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.wduTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- tests.wduTest --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-tests_wduTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for tests.wduTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-tests_wduTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for tests.wduTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-tests_wduTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for tests.wduTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_tests_wduTest');
+function tableData_tests_wduTest() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyAjaxLoaderPopUpTest')
+data.setCell(0, 2, 'tests.wduTest')
+data.setCell(0, 3, 8684);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyAjaxLoaderPopUpTest')
+data.setCell(1, 2, 'tests.wduTest')
+data.setCell(1, 3, 8660);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyAjaxLoaderPopUpTest')
+data.setCell(2, 2, 'tests.wduTest')
+data.setCell(2, 3, 8574);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyAjaxLoaderPopUpTest')
+data.setCell(3, 2, 'tests.wduTest')
+data.setCell(3, 3, 8572);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyAjaxLoaderPopUpTest')
+data.setCell(4, 2, 'tests.wduTest')
+data.setCell(4, 3, 8567);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyAjaxLoaderPopUpTest')
+data.setCell(5, 2, 'tests.wduTest')
+data.setCell(5, 3, 8539);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyAjaxLoaderPopUpTest')
+data.setCell(6, 2, 'tests.wduTest')
+data.setCell(6, 3, 8535);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyAjaxLoaderPopUpTest')
+data.setCell(7, 2, 'tests.wduTest')
+data.setCell(7, 3, 8534);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyAjaxLoaderPopUpTest')
+data.setCell(8, 2, 'tests.wduTest')
+data.setCell(8, 3, 8530);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyAjaxLoaderPopUpTest')
+data.setCell(9, 2, 'tests.wduTest')
+data.setCell(9, 3, 8520);
+window.suiteTableData['tests_wduTest']= { tableData: data, tableDiv: 'times-div-tests_wduTest'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-tests_wduTest">
+              </div> <!-- times-div-tests_wduTest -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-tests_wduTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for tests.wduTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-tests_wduTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-tests_wduTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.wduTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAjaxLoaderPopUpTest</span>
+                <span class="method-start">13777 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">22466 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">23649 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAjaxLoaderPopUpTest</span>
+                <span class="method-start">26967 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">35502 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">36663 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAjaxLoaderPopUpTest</span>
+                <span class="method-start">39618 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">48190 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">49409 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAjaxLoaderPopUpTest</span>
+                <span class="method-start">53019 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">61555 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">62756 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAjaxLoaderPopUpTest</span>
+                <span class="method-start">65561 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">74134 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">75790 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAjaxLoaderPopUpTest</span>
+                <span class="method-start">79706 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">88246 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">89375 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAjaxLoaderPopUpTest</span>
+                <span class="method-start">92958 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">101481 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">103114 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAjaxLoaderPopUpTest</span>
+                <span class="method-start">106886 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">115417 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">117011 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAjaxLoaderPopUpTest</span>
+                <span class="method-start">119961 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">128622 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">129767 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAjaxLoaderPopUpTest</span>
+                <span class="method-start">132307 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">140882 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
